@@ -221,6 +221,7 @@ CONFIG_PACKAGE_luci-app-nlbwmon=y #宽带流量监控
 CONFIG_PACKAGE_luci-app-wrtbwmon=y #实时流量监测
 CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
+CONFIG_PACKAGE_kmod-usb-printer=y
 # CONFIG_PACKAGE_luci-app-zerotier is not set #zerotier内网穿透
 # CONFIG_PACKAGE_luci-app-sfe is not set #高通开源的 Shortcut FE 转发加速引擎
 # CONFIG_PACKAGE_luci-app-flowoffload is not set #开源 Linux Flow Offload 驱动
