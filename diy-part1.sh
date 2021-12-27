@@ -115,10 +115,10 @@ CONFIG_EFI_IMAGES=y
 EOF
 
 # IPv6支持:
-# cat >> .config <<EOF
-# CONFIG_PACKAGE_dnsmasq_full_dhcpv6 is not set
-# CONFIG_PACKAGE_ipv6helper is not set
-# EOF
+cat >> .config <<EOF
+CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
+CONFIG_PACKAGE_ipv6helper=y
+EOF
 
 # 编译VMware镜像以及镜像填充	
 cat >> .config <<EOF	
