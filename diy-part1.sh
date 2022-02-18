@@ -250,11 +250,11 @@ CONFIG_PACKAGE_kmod-usb-printer=y
 # 
 # DDNS插件
 #
-# CONFIG_PACKAGE_luci-app-ddns is not set #DDNS服务
-# CONFIG_PACKAGE_ddns-scripts is not set
-# CONFIG_PACKAGE_ddns-scripts_aliyun is not set
-# CONFIG_PACKAGE_ddns-scripts_cloudflare.com-v4 is not set
-# CONFIG_PACKAGE_ddns-scripts_dnspod is not set
+CONFIG_PACKAGE_luci-app-ddns=y #DDNS服务
+CONFIG_PACKAGE_ddns-scripts=y
+CONFIG_PACKAGE_ddns-scripts_aliyun=y
+CONFIG_PACKAGE_ddns-scripts_cloudflare.com-v4=y
+CONFIG_PACKAGE_ddns-scripts_dnspod=y
 #
 # VPN相关插件(禁用):
 #
